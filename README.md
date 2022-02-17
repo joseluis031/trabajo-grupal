@@ -113,3 +113,38 @@ Algoritmo Viaje_Escolar
 	
 FinAlgoritmo
 ```
+## Ejercicio 8
+```
+Algoritmo prima_anual
+
+Algoritmo prima_anual
+#Impporte de la prima anual en función del número de accidentes, de la distancia
+#recorrida y de la antigüedad del conductor.
+
+Entrada
+	accidentes : ENTERO # Número de accidentes
+	distancia : ENTERO # Distancia recorrida
+	Antigüedad : ENTERO # Antigüedad
+	
+Resultado: REAL
+
+Variable
+	prima_antigüedad:REAL
+	prima_distancia:REAL
+	
+Realización
+	si
+		accidentes > 3
+	entonces
+		Resultado ← 0,00
+	si no 
+		#Calculo de la prima de antigüedad
+		si
+			antigüedad < 4
+		entonces 
+			prima_antigüedad ← 200,00 + REAL(antigüedad - 4)x20,00
+		fin si
+		#Cálculo de la prima de rendimiento
+		prima_distancia ← inf (REAL(distancia)x0,01,REAL(400))
+		#Cálculo de la prima anual
+	
