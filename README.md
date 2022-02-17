@@ -147,4 +147,11 @@ Realización
 		#Cálculo de la prima de rendimiento
 		prima_distancia ← inf (REAL(distancia)x0,01,REAL(400))
 		#Cálculo de la prima anual
+		Resultado ← (prima_antigüedad + prima_distancia)/REAL(accidentes + 1)
+	fin si
 	
+Postcondición
+...
+
+fin prima_anual
+```
