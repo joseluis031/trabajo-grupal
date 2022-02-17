@@ -46,7 +46,7 @@ postcondición
     ...
 fin sucesor
 ```
-##Ejercicio 7
+## Ejercicio 7
 ```
 Algoritmo Ej7_Viaje_Escolar
 	
