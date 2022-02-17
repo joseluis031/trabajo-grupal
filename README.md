@@ -46,7 +46,7 @@ postcondición
     ...
 fin sucesor
 
-##Ejercicio 3
+## Ejercicio 3
 
 Cálculo del importe del descuento
  descuento(precio:REAL):REAL
