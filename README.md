@@ -73,7 +73,30 @@ Postcondición
     
 fin descuento         
 ```
-
+## Ejercicio 4
+```
+Algoritmo Otra_vez_una_media
+	
+	Definir nota1, nota2, nota3, nota4 Como Entero
+	Escribir "Introduzca las notas en una escala del 0 al 20: "
+	Leer nota1,nota2,nota3,nota4
+	
+	//Calculamos la media
+	media = (nota1+nota2+nota3+nota4)/4
+	
+	//Condicional segun el valor de la media
+	Si media > 15
+		Escribir "Alumno con talento"
+	SiNo
+		Si media >= 12 y media <= 15
+			Escribir "Con capacidad"
+		SiNo
+			Escribir "Debe reorientarse"
+		FinSi
+	FinSi
+	
+FinAlgoritmo
+```
 ## Ejercicio 6
 ```
 Algoritmo Descuento_microprocesadores
