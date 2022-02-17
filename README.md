@@ -74,6 +74,51 @@ Postcondición
 fin descuento         
 ```
 
+## Ejercicio 6
+```
+Algoritmo Descuento_microprocesadores
+	
+	//Definimos las variables
+	Definir componentes_pedidos Como Entero
+	Definir tipo_cliente Como Caracter
+	Definir descuento Como Real
+	
+	//Introducimos los valores de las variables por teclado
+	Escribir "¿Cuantos componentes se han pedido? "
+	Leer componentes_pedidos
+	Escribir "Tipo de cliente: "
+	Leer tipo_cliente
+	
+	//Primer bucle para calcular el descuento
+	Si componentes_pedidos < 10000 Entonces
+		descuento<-0.00
+	SiNo
+		Si 10000 <= componentes_pedidos y componentes_pedidos <= 20000 Entonces
+			descuento<-0.10
+		SiNo
+			Si componentes_pedidos > 20000 y componentes_pedidos <= 40000 Entonces
+				descuento<-0.15
+			SiNo
+				descuento<-0.20
+			FinSi
+		FinSi
+	FinSi
+	
+	//Segundo bucle para calcular el descuento
+	Si tipo_cliente = "COMMAQ" Entonces
+		descuento<-descuento-0.02
+	Sino 
+		Si tipo_cliente = "BEL" Entonces
+			descuento<-descuento+0.01
+		FinSi
+	FinSi
+	
+	//Mostramos el descuento por pantalla
+	Escribir "Su descuento es la friolera de ", descuento, "%"
+	
+FinAlgoritmo
+```
+
 ## Ejercicio 7
 ```
 Algoritmo Viaje_Escolar
