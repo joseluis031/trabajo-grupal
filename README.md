@@ -3,22 +3,16 @@
 La direccion de GitHub de este repositorio es: [GitHub](https://github.com/joseluis031/trabajo-grupal.git)
 
 ## Ejercicio 1
-```
+
 tipo DIA estructura
     # Versión 1
     (lunes, martes, miércoles, jueves, viernes, sábado, domingo)
 fin DIA
 
-tipo DIA estructura
-    # versión 2
-    # (lunes, martes, miércoles, jueves, viernes, sábado, domingo)
-      (  1,     2,      3,       4,      5,        6,      0    )
-fin DIA
-```
-## Ejericico 2
 
-Algoritmo 2: Otra definición de sucesor por enumeración
 ```
+Algoritmo 2: Otra definición de sucesor por enumeración
+
 sucesor(día : DIA) : DIA
     # El sucesor de `día' en la semana.
 
@@ -81,9 +75,9 @@ fin descuento
 ```
 
 ## Ejercicio 7
-
-Algoritmo Ej7_Viaje_Escolar
 ```
+Algoritmo Viaje_Escolar
+
 	//Definimos las variables
 	Definir numero_alumnos, numero_dias Como Entero
 	Definir alojamiento, coste_alumno, coste_por_alumno, coste_final Como Real
