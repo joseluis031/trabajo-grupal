@@ -97,6 +97,41 @@ Algoritmo Otra_vez_una_media
 	
 FinAlgoritmo
 ```
+
+## Ejercicio 5
+```
+Algoritmo Descuento_Adif
+
+	//Definimos las variables
+	Definir numero_niños, descuento Como Entero
+	Escribir "Introduce el número de niños: "
+	Leer numero_niños
+
+	//Condicional según el número de niños
+	Si numero_niños < 2 Entonces
+		descuento = 0
+	SiNo
+		Si numero_niños = 2 Entonces
+			descuento = 10
+		SiNo 
+			Si numero_niños = 3 Entonces
+				descuento = 15
+			SiNo 
+				Si numero_niños = 4 Entonces
+					descuento = 18
+				SiNo
+					descuento = 18 + (numero_niños - 4)
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+
+	//Escribimos el resultado
+	Escribir "El descuento es de un ",descuento,"%"
+
+FinAlgoritmo
+```
+		
 ## Ejercicio 6
 ```
 Algoritmo Descuento_microprocesadores
