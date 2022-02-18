@@ -293,6 +293,7 @@ Realización
 	fin si
 	
 Postcondición
+   Mostrar resultado
 ...
 
 fin prima_anual
