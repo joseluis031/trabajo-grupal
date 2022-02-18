@@ -11,7 +11,7 @@ fin DIA
 
 
 ```
-Algoritmo: Definición de sucesor por enumeración
+Algoritmo 2: Otra definición de sucesor por enumeración
 
 sucesor(día : DIA) : DIA
     # El sucesor de `día' en la semana.
@@ -42,6 +42,45 @@ postcondición
     ...
 fin sucesor
 ```
+
+## Ejercicio 2
+
+Algoritmo Clasificar3
+
+Entrada
+	Definir a, b, c Como Enteros
+	Escribir "Introduce dos números enteros: "
+	Leer a, b, c
+
+Realizacion
+	Si a > b Entonces intercambiar (a, b) FinSi
+	Si b > c Entonces intercambiar (b, c) FinSi
+	Si a > c Entonces intercambiar (a, c) FinSi
+
+Postcondición
+	a <= b <= c
+Fin Clasificar3
+
+Algoritmo Clasificar4
+
+Entrada
+	Definir a, b, suma, producto Como Enteros
+	Escribir "Introduce dos números enteros: "
+	Leer a, b, suma, producto
+
+Realización
+	suma = a + b
+	producto = a * b
+
+	Clasificar3(a, b, suma)
+
+	Si producto < a Entonces intercabiar (a, producto) FinSi
+	
+	Clasificar3(b, suma, producto)
+
+Postcondición
+	a <= b <= suma <= producto
+Fin Clasificar4
 
 ## Ejercicio 3
 
@@ -77,7 +116,6 @@ fin descuento
 ```
 Algoritmo Otra_vez_una_media
 	
-	//Definimos las variables
 	Definir nota1, nota2, nota3, nota4 Como Entero
 	Escribir "Introduzca las notas en una escala del 0 al 20: "
 	Leer nota1,nota2,nota3,nota4
@@ -219,6 +257,7 @@ FinAlgoritmo
 ```
 ## Ejercicio 8
 ```
+Algoritmo prima_anual
 
 Algoritmo prima_anual
 #Impporte de la prima anual en función del número de accidentes, de la distancia
