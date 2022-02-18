@@ -44,7 +44,7 @@ fin sucesor
 ```
 
 ## Ejercicio 2
-
+```
 Algoritmo Clasificar3
 
 Entrada
@@ -81,7 +81,7 @@ Realización
 Postcondición
 	a <= b <= suma <= producto
 Fin Clasificar4
-
+```
 ## Ejercicio 3
 
 ```
