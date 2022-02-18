@@ -11,7 +11,7 @@ fin DIA
 
 
 ```
-Algoritmo 2: Otra definición de sucesor por enumeración
+Algoritmo: Definición de sucesor por enumeración
 
 sucesor(día : DIA) : DIA
     # El sucesor de `día' en la semana.
