@@ -77,6 +77,7 @@ fin descuento
 ```
 Algoritmo Otra_vez_una_media
 	
+	//Definimos las variables
 	Definir nota1, nota2, nota3, nota4 Como Entero
 	Escribir "Introduzca las notas en una escala del 0 al 20: "
 	Leer nota1,nota2,nota3,nota4
@@ -218,7 +219,6 @@ FinAlgoritmo
 ```
 ## Ejercicio 8
 ```
-Algoritmo prima_anual
 
 Algoritmo prima_anual
 #Impporte de la prima anual en función del número de accidentes, de la distancia
